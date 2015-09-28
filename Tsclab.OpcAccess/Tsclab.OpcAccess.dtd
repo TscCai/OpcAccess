@@ -1,0 +1,33 @@
+<!ELEMENT config (opcInfo+,rawDataProcessor?)>
+
+<!ELEMENT opcInfo (ip,serverName,group)>
+<!ATTLIST opcInfo type CDATA #REQUIRED>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT serverName (#PCDATA)>
+
+<!ELEMENT group (groupDefaultProperties,groupProperties,opcItem*)>
+<!ATTLIST group name CDATA #REQUIRED>
+<!ATTLIST group timespan CDATA #REQUIRED>
+
+<!ELEMENT groupDefaultProperties (#PCDATA)>
+<!ATTLIST groupDefaultProperties isActive (true|false) #REQUIRED>
+<!ATTLIST groupDefaultProperties deadBand CDATA #REQUIRED>
+<!ATTLIST groupDefaultProperties updateRate CDATA #REQUIRED>
+
+<!ELEMENT groupProperties (#PCDATA)>
+<!ATTLIST groupProperties isActive (true|false) #REQUIRED>
+<!ATTLIST groupProperties deadBand CDATA #REQUIRED>
+<!ATTLIST groupProperties updateRate CDATA #REQUIRED>
+<!ATTLIST groupProperties isSubscribed (true|false) #REQUIRED>
+
+<!ELEMENT opcItem (item+)>
+<!ATTLIST opcItem id CDATA #REQUIRED>
+<!ELEMENT item (#PCDATA|subItem)*>
+<!ATTLIST item name CDATA #REQUIRED>
+<!ATTLIST item strategy CDATA #IMPLIED	>
+<!ELEMENT subItem (#PCDATA)>
+<!ATTLIST subItem name CDATA #REQUIRED>
+<!ELEMENT rawDataProcessor (class*)>
+<!ELEMENT class (#PCDATA)>
+<!ATTLIST class assembly CDATA "Tsclab.OpcAccess">
+<!ATTLIST class fullname CDATA "Tsclab.OpcAccess.RawDataProcesser">

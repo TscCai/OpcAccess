@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Tsclab.OpcAccess.Core.BaseReader">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEZAAEAASACAAAEIAIAAAAAAAACAIAAAAgCAAEA=</HashCode>
+      <FileName>Core\BaseReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tsclab.OpcAccess.Core.OpcConfigManager">
+    <Position X="9.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAABAQAAAAAAABAhDAAAAAAAFAgAMoAAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcConfigManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tsclab.OpcAccess.Core.OpcDataChangedEventArgs">
+    <Position X="2.25" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcDataChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tsclab.OpcAccess.Core.OPCDataChangedEventArgsEx">
+    <Position X="5.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcDataChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tsclab.OpcAccess.Core.OpcListener">
+    <Position X="5.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQDBAIAEEAAAAAAAAAAIAQAAAAAAAAQCwAAA=</HashCode>
+      <FileName>Core\OpcListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tsclab.OpcAccess.Core.OpcReader">
+    <Position X="3" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tsclab.OpcAccess.DefaultRawDataProcessor">
+    <Position X="6.75" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DefaultRawDataProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Tsclab.OpcAccess.Core.OpcConfig">
+    <Position X="0.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAACAAAAgAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.OpcGroup">
+    <Position X="2.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAQAAAAAAQAAAACAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.GroupDefaultProperty">
+    <Position X="4.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.GroupProperty">
+    <Position X="7" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAUAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.OpcItem">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.Item">
+    <Position X="2.25" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tsclab.OpcAccess.Core.RawDataProcessor">
+    <Position X="4.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Tsclab.OpcAccess.Core.IOpcListener">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Core\IOpcListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Tsclab.OpcAccess.Core.OpcDataChangedEventHandler">
+    <Position X="5.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\OpcDataChangedEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
